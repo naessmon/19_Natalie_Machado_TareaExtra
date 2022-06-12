@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(255, 48%, 21%);
+    color: whitesmoke
+}
+li{
+    display: inline;
+    padding: 100px;
+}
+nav{
+    position: relative;
+    top: 0px;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: white;
+}
+a:hover{
+    color: greenyellow;
+
+}
+a:visited{
+    color: greenyellow;
+}
+.padre{ 
+    padding: 60px;
+    width: 90%;
+    background-image: url("https://bluelabyrinths.files.wordpress.com/2018/12/yoshito-hasaka-ci-porta-in-un-universo-cyberpunk-alla-blade-runner-collater-al-1.jpg");
+    position: absolute;
+}
+h1{
+    font-size:50px;
+}
+.inicio,.about,.contacto{
+    position:relative;
+    background-color: hsla(255, 40%, 27%, 0.834);
+    padding: 50px;
+    margin: 20px;
+}
+.inicio h1,img,p{
+   display: inline-block;
+}
+img{
+    width: 150px;
+}
+p{
+    font-size:larger;
+}
+.inicio h1,p{
+    margin-inline: 10px;
+}
+.izq,.der{
+    display: inline-block;
+    flex-wrap: wrap;
+}
+.about p{
+    font-size:medium;
+}
+.about img{
+    width: 300px;
+    display: block;
+}
+.der{
+    top: 0%;
+    position: absolute;
+}
+.about{
+    width: 60vw;
+    height: 25vw;
+    left: 0%;
+}
+.contacto{
+    width: 50vw;
+    right: -30%;
+}
+.contacto h1{
+    text-align: right;
+
+}
+.inicio{
+    width: 60vw;
+    right: -20%;
+}
